@@ -1,43 +1,30 @@
-# First_git_push
-Udacity-Write-a-Data-Science-Blog-Post
-Udacity Data Scientist Nanodegree Project
+# Wine Review Data Analysis
 
-This is the repo of the Write a Data Science Blog Post project for the Udacity Data Scientist Nanodegree Project.
+## Installations
+ - NumPy
+ - Pandas
+ - Seaborn
+ - Matplotlib
+ - Wordcloud
+ - Pillow
+ 
+No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
 
-1- Business Understanding
+## Project Motivation
+For this project I was interested in conducting exploratory data analysis using a [Wine Review dataset found on Kaggle](https://www.kaggle.com/zynicide/wine-reviews) containing approximately 130k reviews from the [Wine Enthusiast](https://www.winemag.com/?s=&drink_type=wine) to better understand:
+ - Where does the best wine in the world come from?
+ - Is price related to quality?
+ - Are certain varieties of wine higher quality?
+ - What is the best wine in each price bracket?
+ - What words are most used when talking about wine?
 
-We investigated if North America was a better place to immigrate rather then Europe for a software developer.
+I wanted the opportunity to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed. 
 
-For this we need to understand what is important to a person searching for a new job, things such as salary, salary growth, and satisfaction in what they do are important factors that determine which location is a better choice.
+## File Descriptions
+There is one exploratory notebook available here to showcase my work related to the questions posed. Markdown cells were used throughout to explain the process taken.
 
-For this, we asked 3 questions:
+## Medium Blog Post 
+The main findings of the code can be found at the Medium Blog post available [here](https://medium.com/@stephanieirvine15/how-data-will-make-you-drink-wine-differently-c59d669831a1)
 
-Which location has the highest salary?
-Which location has the highest salary growth?
-which location has the highest career satisfaction?
-2- Data Understanding
-
-The data comes from the stack overflow 2017 survey. the rows are the different respondants to the survey, and the columns are the answer to the survey questions. It contains data that comes as numerical, categorical and text. It has missing values and outliers as well.
-
-3- Prepare Data
-
-For the data preparation phase, we gathered the data, assessed it and then proceeded to clean it, focusing on our columns of interest, with python libraries of Numpy and Pandas
-
-4- Data Modeling
-
-we graphed different behaviours that were relevant to the 3 questions, with the python libraries matplotlib and seaborn.
-
-5- Evaluate the Results
-
-for the 3 questions, we arrived at the following conclusions:
-
-Which location has the highest salary? North America
-Which location has the highest salary growth? Both follow a similar pattern
-which location has the highest career satisfaction? THey start the same in the first year of work, but then Europe has a drop in satisfaction of which never truly recovers until 20 years later.
-The blog is written on the following link
-
-Finally, the readme format:
-
-the libraries used: Numpy, Pandas, Matplotlib and Seaborn
-the motivation for the project: This is a question close to my heart since my country is unstable at the moment an immigration is always a choice.
-the files in the repository with a small description of each: I included the zip file with the survey_results_public.csv file that is used as the dataset. Also, the Code file is the jupyter notebook script. a summary of the results of the analysis: In the end, we concluded that North America is the best choice
+## Licensing, Authors, Acknowledgements, etc.
+Acknowledgement should go to [Kaggle](https://www.kaggle.com/zynicide/wine-reviews) and zackthoutt for providing the dataset. Acknowledgement should also go to [DataCamp](https://www.datacamp.com/community/tutorials/wordcloud-python) for their excellent WordCloud tutorial.
